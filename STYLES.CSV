@@ -1,0 +1,19 @@
+.result-fake {
+    background-color: rgba(231, 76, 60, 0.1);
+    border-left: 5px solid #e74c3c;
+}
+
+.result-true {
+    background-color: rgba(39, 174, 96, 0.1);
+    border-left: 5px solid #27ae60;
+}
+
+.confidence-meter {
+    background: linear-gradient(90deg, #27ae60, #e74c3c);
+}
+
+.indicators-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
